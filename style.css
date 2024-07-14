@@ -27,6 +27,8 @@ nav .nav_links {
   float: right;
   margin: 0px 10px 0px 0px;
 }
+/*  
+here the links are in flex direction as row bydefault */
 nav .nav_links ul {
   display: flex;
   justify-content: center;
@@ -51,12 +53,15 @@ nav .nav_links ul li a:hover {
   transition-duration: 0.3s;
   color: black;
 }
+/* ................flexbox................... */
+/* use flex wrap attribute */
 .flexbox {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
+/* here use the flex direction as column */
 .flexbox .box {
   height: 400px;
   width: 270px;
