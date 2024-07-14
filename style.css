@@ -12,20 +12,20 @@ nav .nav_logo {
   display: inline-block;
   margin: 15px;
 }
-nav .nav_logo p{
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    /* margin: 10px; */
-    color: rgb(38, 175, 175);
+nav .nav_logo p {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  /* margin: 10px; */
+  color: rgb(38, 175, 175);
 }
-nav .nav_logo p span{
-    color: orange;
-    font-size: 1.7rem;
+nav .nav_logo p span {
+  color: orange;
+  font-size: 1.7rem;
 }
 nav .nav_links {
   float: right;
-  margin: 0px 10px 0px 0px ;
+  margin: 0px 10px 0px 0px;
 }
 nav .nav_links ul {
   display: flex;
@@ -45,9 +45,51 @@ nav .nav_links ul li a {
   font-weight: 600;
   padding: 7px 10px;
 }
-nav .nav_links ul li a:hover{
-    background-color: rgb(250, 221, 182);
-    border-radius: 17px;
-    transition-duration: .3s;
-    color: black;
+nav .nav_links ul li a:hover {
+  background-color: rgb(250, 221, 182);
+  border-radius: 17px;
+  transition-duration: 0.3s;
+  color: black;
+}
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flexbox .box {
+  height: 400px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  background-color: rgb(220, 250, 240);
+  border-radius: 12px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px rgb(5, 255, 172);
+}
+.flexbox .box h1 {
+  margin: 0px 0px 20px 0px;
+  color: rgb(243, 159, 4);
+}
+.flexbox .box .icon i {
+  font-size: 3rem;
+  font-weight: 600;
+  color: orangered;
+}
+.flexbox .box p {
+  margin: 10px 35px;
+  text-align: justify;
+  font-size: 0.9rem;
+}
+.flexbox .box .button {
+  margin: 30px 0px 0px 150px;
+}
+.flexbox .box .button button {
+  padding: 7px 13px;
+  border-radius: 13px;
+  border: none;
+  background-color: orange;
 }
